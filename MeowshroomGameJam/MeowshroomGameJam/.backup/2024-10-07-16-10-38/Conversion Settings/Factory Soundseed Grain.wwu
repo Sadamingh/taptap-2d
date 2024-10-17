@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{92FC3E56-611E-49FA-BB3F-132EC10CA415}" SchemaVersion="119">
+	<Conversions>
+		<WorkUnit Name="Factory Soundseed Grain" ID="{92FC3E56-611E-49FA-BB3F-132EC10CA415}" PersistMode="Standalone">
+			<ChildrenList>
+				<Conversion Name="Conversion Settings" ID="{7375EE70-8851-4CD6-8E46-F09C2EC34736}">
+					<PropertyList>
+						<Property Name="Channels" Type="int32">
+							<ValueList>
+								<Value Platform="Linux">4</Value>
+								<Value Platform="Switch">4</Value>
+								<Value Platform="iOS">4</Value>
+								<Value Platform="Mac">4</Value>
+								<Value Platform="PS4">4</Value>
+								<Value Platform="XboxOne">4</Value>
+								<Value Platform="Windows">4</Value>
+								<Value Platform="XboxSeriesX">4</Value>
+								<Value Platform="PS5">4</Value>
+								<Value Platform="Android">4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="LRMix" Type="Real64">
+							<ValueList>
+								<Value Platform="Linux">0</Value>
+								<Value Platform="Switch">0</Value>
+								<Value Platform="iOS">0</Value>
+								<Value Platform="Mac">0</Value>
+								<Value Platform="PS4">0</Value>
+								<Value Platform="XboxOne">0</Value>
+								<Value Platform="Windows">0</Value>
+								<Value Platform="XboxSeriesX">0</Value>
+								<Value Platform="PS5">0</Value>
+								<Value Platform="Android">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Linux">0</Value>
+								<Value Platform="Switch">0</Value>
+								<Value Platform="iOS">0</Value>
+								<Value Platform="Mac">0</Value>
+								<Value Platform="PS4">0</Value>
+								<Value Platform="XboxOne">0</Value>
+								<Value Platform="Windows">0</Value>
+								<Value Platform="XboxSeriesX">0</Value>
+								<Value Platform="PS5">0</Value>
+								<Value Platform="Android">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MinSampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Linux">0</Value>
+								<Value Platform="Switch">0</Value>
+								<Value Platform="iOS">0</Value>
+								<Value Platform="Mac">0</Value>
+								<Value Platform="PS4">0</Value>
+								<Value Platform="XboxOne">0</Value>
+								<Value Platform="Windows">0</Value>
+								<Value Platform="XboxSeriesX">0</Value>
+								<Value Platform="PS5">0</Value>
+								<Value Platform="Android">0</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SampleRate" Type="int32">
+							<ValueList>
+								<Value Platform="Linux">0</Value>
+								<Value Platform="Switch">0</Value>
+								<Value Platform="iOS">0</Value>
+								<Value Platform="Mac">0</Value>
+								<Value Platform="PS4">0</Value>
+								<Value Platform="XboxOne">0</Value>
+								<Value Platform="Windows">0</Value>
+								<Value Platform="XboxSeriesX">0</Value>
+								<Value Platform="PS5">0</Value>
+								<Value Platform="Android">0</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ConversionPluginInfoList>
+						<ConversionPluginInfo Platform="Linux">
+							<ConversionPlugin Name="" ID="{33AA8FE5-E645-46DF-84BA-32C61FC6FDA0}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="Switch">
+							<ConversionPlugin Name="" ID="{9018BADB-95D4-4FE3-B7F2-C58EA7DA4CA1}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="iOS">
+							<ConversionPlugin Name="" ID="{0B571101-B7BE-4C22-A7D7-D86DC309EF82}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="Mac">
+							<ConversionPlugin Name="" ID="{1168A49C-64FD-4A67-9A92-512403DA37DE}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="PS4">
+							<ConversionPlugin Name="" ID="{530BF953-A622-4973-9858-A11B2BD6D03C}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="XboxOne">
+							<ConversionPlugin Name="" ID="{D7F50036-D96B-4E6A-B622-569E61FCA786}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="Windows">
+							<ConversionPlugin Name="" ID="{BC4C0C09-8361-4A72-9EF7-70982883CEB2}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="XboxSeriesX">
+							<ConversionPlugin Name="" ID="{438BCA33-5F58-4677-AA38-A42B364D8953}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="PS5">
+							<ConversionPlugin Name="" ID="{A3FEDDBB-5A80-4C14-B418-4D9154A4C733}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="Android">
+							<ConversionPlugin Name="" ID="{1764C98D-DBB8-42E1-A90A-12037ADD4DED}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+					</ConversionPluginInfoList>
+				</Conversion>
+			</ChildrenList>
+		</WorkUnit>
+	</Conversions>
+</WwiseDocument>
