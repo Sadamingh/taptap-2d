@@ -3,8 +3,7 @@ using UnityEngine;
 public class CatMove : MonoBehaviour
 {
     public float speed = 5f;
-    public float maxJumpForce = 10f;  // Maximum jump force
-    public float minJumpForce = 2f;   // Minimum jump force
+    public float jumpForce = 5f;  // Consistent jump force
     private Transform laserPointer;
     private SpriteRenderer laserSprite;
     private SpriteRenderer catSprite;
@@ -27,7 +26,7 @@ public class CatMove : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         // Check if the laser exists and if its sprite is enabled before moving the cat
         if (laserPointer != null && laserSprite.enabled)
@@ -50,13 +49,7 @@ public class CatMove : MonoBehaviour
             // Check if the laser pointer is above the cat
             if (laserPointer.position.y > transform.position.y)
             {
-                // Calculate the vertical distance between the laser and the cat
-                float distance = laserPointer.position.y - transform.position.y;
-
-                // Calculate a proportional jump force based on the distance
-                float jumpForce = Mathf.Clamp(distance, minJumpForce, maxJumpForce);
-
-                // Apply an upward force to make the cat jump, based on the distance
+                // Apply a fixed upward force to make the cat jump
                 rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             }
         }
