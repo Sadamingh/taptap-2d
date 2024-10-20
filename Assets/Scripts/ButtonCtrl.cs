@@ -36,4 +36,9 @@ public class ButtonCtrl : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
+
+    public void GoToScene4()
+    {
+        SceneManager.LoadScene(4);
+    }
 }
