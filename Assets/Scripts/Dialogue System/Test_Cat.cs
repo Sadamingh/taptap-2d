@@ -10,7 +10,7 @@ public class Test_Cat : NPC, ITalkable
     {
         // Put actions for NPC (Test_Cat, in this case) below
         Talk(dialogueText);
-
+        Debug.Log("Start talking");
     }
 
     public void Talk(DialogueText dialogueText)

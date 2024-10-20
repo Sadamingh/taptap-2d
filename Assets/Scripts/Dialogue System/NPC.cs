@@ -21,6 +21,7 @@ public abstract class NPC : MonoBehaviour, IInteractable
         {
             //talk and interact
             Interact();
+            Debug.Log("Test space pressed");
         }
         if (_interactSprite.gameObject.activeSelf && !IsWithinInteractDistance())
         {
@@ -31,6 +32,7 @@ public abstract class NPC : MonoBehaviour, IInteractable
         {
             //turn on sprite
             _interactSprite.gameObject.SetActive(true);
+            Debug.Log("Sprite Active.");
         }
     }
     public abstract void Interact();

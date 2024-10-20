@@ -13,6 +13,7 @@ public class DialogueController : MonoBehaviour
 
     public void DisplayNextParagraph(DialogueText dialogueText)
     {
+        Debug.Log("Next line " + paragraphs.Count);
         // If there is nothing in the queue
         if (paragraphs.Count == 0)
         {
