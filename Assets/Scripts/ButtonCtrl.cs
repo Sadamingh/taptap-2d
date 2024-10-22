@@ -41,4 +41,24 @@ public class ButtonCtrl : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+
+    public void GoToScene5()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    public void GoToScene6()
+    {
+        SceneManager.LoadScene(6);
+    }
+
+    public void GoToScene7()
+    {
+        SceneManager.LoadScene(7);
+    }
+
+    public void GoToScene8()
+    {
+        SceneManager.LoadScene(8);
+    }
 }

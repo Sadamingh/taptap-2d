@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_02_Subway.unity
     guid: 4dab30f77410a44ee8db7205ff14b88a
+  - enabled: 1
+    path: Assets/Scenes/Level_03_Office.unity
+    guid: 1a24b2171c2c24ce1b59ed8469713c47
   m_configObjects: {}
