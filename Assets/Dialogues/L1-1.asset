@@ -9,9 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 793cf8591d033494b8147db2aa79ef67, type: 3}
-  m_Name: Test Conversation
+  m_Script: {fileID: 11500000, guid: f0b294cb7c9da4b18b7d3e4d6e5cda5e, type: 3}
+  m_Name: L1-1
   m_EditorClassIdentifier: 
-  npcName: Green Cat
-  paragraphs:
-  - Hey, why there is another cat on the bed
+  dialogueEntries:
+  - speaker: Cat
+    dialogueLine: Did you see Hikari?
+  - speaker: NPC
+    dialogueLine: I've no idea.
+  - speaker: NPC
+    dialogueLine: But come in and find in the kitchen.

@@ -9,18 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelect.unity
     guid: 00783b2b04aa0406bb18ec07d7f430f0
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/L1-1 Bedroom.unity
+    guid: 7de88c4cffbdc4a89a3df751a5170687
   - enabled: 1
-    path: Assets/Scenes/3dSample.unity
-    guid: 30ab594dd98304f28a700289d1fb3b01
-  - enabled: 1
-    path: Assets/Scenes/Level_01_Kitchen.unity
+    path: Assets/Scenes/L1-2 Kitchen.unity
     guid: da1a5a94c36564968b9e5191d58e7e8f
   - enabled: 1
-    path: Assets/Scenes/Level_02_Subway.unity
+    path: Assets/Scenes/L2-2 Subway.unity
     guid: 4dab30f77410a44ee8db7205ff14b88a
   - enabled: 1
-    path: Assets/Scenes/Level_03_Office.unity
+    path: Assets/Scenes/L3-2 Office.unity
     guid: 1a24b2171c2c24ce1b59ed8469713c47
   m_configObjects: {}
