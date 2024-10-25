@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Android</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{441033CF-9FAA-345C-0FC5-63AB9D38A0C8}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="85412153" Name="Ambience"/>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<StateGroups>
+				<StateGroup Id="1690668539" Name="Music_States">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="952400680" Name="L2_2"/>
+						<State Id="952400681" Name="L2_3"/>
+						<State Id="952400683" Name="L2_1"/>
+						<State Id="1702304824" Name="L1"/>
+						<State Id="3604647259" Name="MainMenu"/>
+						<State Id="4173453296" Name="L3_3"/>
+						<State Id="4173453297" Name="L3_2"/>
+						<State Id="4173453298" Name="L3_1"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DBEBBB5C-EE95-E8D1-5051-0AB1B6CA00A4}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="1008484862" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cat game menu_01.wav</ShortName>
+					<CachePath>SFX/Cat game menu_01_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2275179450" Name="GamePlayMusic" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1690668539" Id="3604647259"/>
+							<MediaRefs>
+								<MediaRef Id="1008484862"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1690668539" Id="3604647259"/>
+							<MediaRefs>
+								<MediaRef Id="1008484862"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<Busses>
+				<Bus Id="85412153" Name="Ambience"/>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<StateGroups>
+				<StateGroup Id="1690668539" Name="Music_States">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="952400680" Name="L2_2"/>
+						<State Id="952400681" Name="L2_3"/>
+						<State Id="952400683" Name="L2_1"/>
+						<State Id="1702304824" Name="L1"/>
+						<State Id="3604647259" Name="MainMenu"/>
+						<State Id="4173453296" Name="L3_3"/>
+						<State Id="4173453297" Name="L3_2"/>
+						<State Id="4173453298" Name="L3_1"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{6B12F725-CEF6-2056-2EBC-A9FAFC8648F9}</FileHash>
+</SoundBanksInfo>

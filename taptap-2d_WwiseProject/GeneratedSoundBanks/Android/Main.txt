@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2275179450	GamePlayMusic			\Default Work Unit\GamePlayMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1690668539	Music_States			\Default Work Unit\Music_States	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_States			
+	952400680	L2_2	Music_States			
+	952400681	L2_3	Music_States			
+	952400683	L2_1	Music_States			
+	1702304824	L1	Music_States			
+	3604647259	MainMenu	Music_States			
+	4173453296	L3_3	Music_States			
+	4173453297	L3_2	Music_States			
+	4173453298	L3_1	Music_States			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\Ambience	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1008484862	Cat game menu_01	D:\GameProjects\taptap-2d\taptap-2d_WwiseProject\.cache\Android\SFX\Cat game menu_01_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainMenu\Cat game menu_01\Cat game menu_01		8640096
+
