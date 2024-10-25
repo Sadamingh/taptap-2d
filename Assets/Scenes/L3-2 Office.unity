@@ -7730,7 +7730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1112041972
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7950,7 +7950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce2f4649b3a5543aa9a75d5811f60fbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  successPanel: {fileID: 1112041971}
+  dialogueControl: {fileID: 0}
 --- !u!1 &1135003257
 GameObject:
   m_ObjectHideFlags: 0
