@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1D9A54A1-4AB9-4723-BC97-529033EDD635}" SchemaVersion="119">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{1D9A54A1-4AB9-4723-BC97-529033EDD635}" PersistMode="Standalone">
-			<ChildrenList>
-				<SwitchGroup Name="MusicSwitches" ID="{E649A149-3B95-45F8-94CC-4F982048A4BF}">
-					<ChildrenList>
-						<Switch Name="MainMenu" ID="{D93E7C1C-A0E0-4986-8DF3-C1C98A57B76F}"/>
-						<Switch Name="L1_1" ID="{8A100C11-D691-4F8C-8671-621589CFAAE8}"/>
-						<Switch Name="L2" ID="{E85CD3AC-9AC0-4D2F-BC65-55DAEB3C681B}"/>
-					</ChildrenList>
-				</SwitchGroup>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{1D9A54A1-4AB9-4723-BC97-529033EDD635}" PersistMode="Standalone"/>
 	</Switches>
 </WwiseDocument>
