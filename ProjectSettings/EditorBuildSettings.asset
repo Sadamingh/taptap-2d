@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/L1-2 Kitchen.unity
     guid: da1a5a94c36564968b9e5191d58e7e8f
   - enabled: 1
+    path: Assets/Scenes/L1-3 Livingroom.unity
+    guid: cdf4c2d17ef42423a93361cadb67a5e9
+  - enabled: 1
     path: Assets/Scenes/L2-2 Subway.unity
     guid: 4dab30f77410a44ee8db7205ff14b88a
   - enabled: 1
