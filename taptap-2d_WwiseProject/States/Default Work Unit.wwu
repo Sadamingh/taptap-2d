@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{20391E30-93DB-4A69-AEE7-407C25589169}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{20391E30-93DB-4A69-AEE7-407C25589169}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{20391E30-93DB-4A69-AEE7-407C25589169}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_States" ID="{DEE9665D-3391-44CF-B150-AB18E65F4BA5}">
+					<ChildrenList>
+						<State Name="None" ID="{1785CF51-F51D-4FC1-93A9-465070E18BEF}"/>
+						<State Name="MainMenu" ID="{75743853-A088-43DD-BADD-C66D21B51782}"/>
+						<State Name="L1" ID="{AB86AADA-9D17-4486-8456-223978A9B28A}"/>
+						<State Name="L2_1" ID="{AD8944CF-6DA1-4267-B92C-70F07A1DC365}"/>
+						<State Name="L2_2" ID="{E1BEAD5B-3B0E-4D26-9131-54EBBD173ADD}"/>
+						<State Name="L2_3" ID="{AE456874-04E0-44D1-A8F3-A1B2F60D3F0A}"/>
+						<State Name="L3_1" ID="{3E8A66B3-D7E7-41D1-B085-BB9A37B39FB3}"/>
+						<State Name="L3_2" ID="{5B5BCEFF-3450-4D51-9AE1-71AC6E24593F}"/>
+						<State Name="L3_3" ID="{F027A441-F6D7-4304-8C67-49333719625C}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
