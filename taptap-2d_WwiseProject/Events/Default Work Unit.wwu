@@ -14,6 +14,106 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Character" ID="{336900DB-AF60-4D28-8C3A-10BA5BE359C9}" ShortID="49513551">
+					<ChildrenList>
+						<Event Name="CatJump" ID="{51769A24-641E-4B3A-B6DE-CA1B4535A0C1}">
+							<ChildrenList>
+								<Action Name="" ID="{B58CAA39-0DAD-4E27-A5CC-0FC4741C5FB4}" ShortID="426582667">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CatJump" ID="{68589F45-7249-479E-A5EA-DC326307E2A0}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CatRunFootsteps" ID="{B72CD5D6-71AA-4DB3-B501-21C3BFC742AB}">
+							<ChildrenList>
+								<Action Name="" ID="{C67FDF97-786F-49C6-8978-D5EDE12268D6}" ShortID="781891244">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CatRunFootsteps" ID="{8EFC738C-97ED-4FA4-A773-EFF7C944B422}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CatWalkFootsteps" ID="{7ED178DB-5577-492A-BF39-062EBB2CC287}">
+							<ChildrenList>
+								<Action Name="" ID="{D7C8464C-0BA6-4A06-8847-06E24D1BB93E}" ShortID="819403433">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CatWalkFootsteps" ID="{6853301D-9579-4037-9163-1343FE858CEA}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CatDash" ID="{C1B15CC1-A559-4DA5-B7DF-0C7BC64F614A}">
+							<ChildrenList>
+								<Action Name="" ID="{E04C60CC-CF4B-4F50-82D7-7A254CB4B4E5}" ShortID="949236811">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CatDash" ID="{DFD7E4FB-8546-4748-9EF9-3737342E7324}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CatMeow" ID="{A1C6490B-69F3-4052-957A-65102FE73558}">
+							<ChildrenList>
+								<Action Name="" ID="{BE1FF733-97F9-40C5-B645-2FB0B029D69E}" ShortID="987077172">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CatMeow" ID="{543EC8BE-C9DA-49A4-9449-D4AD02F8B27A}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{5CC537F2-0F73-4BF2-95AB-B600CE06C6A6}" ShortID="760140182">
+					<ChildrenList>
+						<Event Name="UI_EnterNextLevel" ID="{0F1F4FD0-2164-4E5B-B138-992C2DFCBB0A}">
+							<ChildrenList>
+								<Action Name="" ID="{DDFBB988-5C91-4D41-9FFB-AD28FFAE3075}" ShortID="268330300">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_EnterNextLevel" ID="{19BFF4C2-9D4C-49B3-8C6E-E4DE6669EF56}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_ItemCollection" ID="{DB0B8049-CFAA-4215-BAED-7F69CF6726C8}">
+							<ChildrenList>
+								<Action Name="" ID="{F10B4333-E859-4036-89D0-681648B3DD0F}" ShortID="780925539">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_ItemCollection" ID="{C416B15B-0F3C-4C28-B50E-D78EA2A0DE6D}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Gameplay" ID="{23A8AD78-9AC5-4D2D-968D-7E30C3ADBA12}" ShortID="773786103">
+					<ChildrenList>
+						<Event Name="Switch" ID="{BC8ED58B-E988-4E3A-A53C-98519DA415E1}">
+							<ChildrenList>
+								<Action Name="" ID="{5F46355B-7111-475C-BE8A-8DA6609C53FF}" ShortID="217810195">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Switch" ID="{45843C57-0FAF-48D0-A4BF-2A7599D94C3E}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

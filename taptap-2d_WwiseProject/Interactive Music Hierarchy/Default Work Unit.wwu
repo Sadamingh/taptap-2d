@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{293419B4-22A6-414A-B416-442498B5FC49}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="Music" ID="{CEA08225-95A9-454E-94F2-05659801D5F7}" ShortID="504878626">
+					<PropertyList>
+						<Property Name="ContinuePlay" Type="bool" Value="False"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5441FC34-55BD-4268-9E96-C7D3FBC44DD5}"/>
@@ -19,7 +22,32 @@
 									</PropertyList>
 									<ChildrenList>
 										<MusicTransition Name="Transition" ID="{AC30A96A-3BCC-47D0-B427-36E006E0B08A}">
-											<TransitionInfo/>
+											<PropertyList>
+												<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+												<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+												<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+												<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+											</PropertyList>
+											<TransitionInfo>
+												<SourceFadeOut>
+													<MusicFade Name="Source Fade-out" ID="{97D8592C-29FE-4F03-B931-09CC428CAD8F}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="0"/>
+															<Property Name="FadeOffset" Type="Real64" Value="1"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+															<Property Name="FadeType" Type="int16" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</SourceFadeOut>
+												<DestinationFadeIn>
+													<MusicFade Name="Destination Fade-in" ID="{E07D4C73-0534-4E35-89EE-95629549F603}">
+														<PropertyList>
+															<Property Name="FadeCurve" Type="int16" Value="0"/>
+															<Property Name="FadeTime" Type="Real64" Value="1"/>
+														</PropertyList>
+													</MusicFade>
+												</DestinationFadeIn>
+											</TransitionInfo>
 										</MusicTransition>
 									</ChildrenList>
 									<TransitionInfo/>
@@ -58,7 +86,11 @@
 								</Reference>
 							</ReferenceList>
 						</MusicPlaylistContainer>
-						<MusicPlaylistContainer Name="L2" ID="{06BF1175-D116-4E11-9E2F-14E9CC88F6A5}" ShortID="106616182">
+						<MusicPlaylistContainer Name="L2_1" ID="{06BF1175-D116-4E11-9E2F-14E9CC88F6A5}" ShortID="106616182">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="72"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5441FC34-55BD-4268-9E96-C7D3FBC44DD5}"/>
@@ -68,7 +100,23 @@
 								</Reference>
 								<Reference Name="PlaylistRoot">
 									<Custom>
-										<MusicPlaylistItem Name="" ID="{778E3390-D6AD-49BE-AF5E-85E141DB8681}" ShortID="699455880"/>
+										<MusicPlaylistItem Name="" ID="{778E3390-D6AD-49BE-AF5E-85E141DB8681}" ShortID="699455880">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{2D8A16B3-45E1-43AD-B6F0-879D609A3468}" ShortID="535948645">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="Cat&amp;light 咖啡店" ID="{F06BD489-8BB6-4EA7-B513-B98CF27A05FA}" WorkUnitID="{293419B4-22A6-414A-B416-442498B5FC49}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
 									</Custom>
 								</Reference>
 								<Reference Name="TransitionRoot">
@@ -79,7 +127,30 @@
 											</PropertyList>
 											<ChildrenList>
 												<MusicTransition Name="Transition" ID="{41A78009-41A5-476B-ABCF-33D894D603DE}">
-													<TransitionInfo/>
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{13D750AE-EA32-49FC-9157-11D69BA0E5A2}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="0"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="1"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{97AE049E-5731-49CA-AAB4-91B73F82C5D7}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="0"/>
+																	<Property Name="FadeTime" Type="Real64" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
 												</MusicTransition>
 											</ChildrenList>
 											<TransitionInfo/>
@@ -87,6 +158,152 @@
 									</Custom>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Cat&amp;light 咖啡店" ID="{F06BD489-8BB6-4EA7-B513-B98CF27A05FA}" ShortID="972223910">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="41006.6666666667"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5441FC34-55BD-4268-9E96-C7D3FBC44DD5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4165E236-1EE0-40A0-A5C0-090018DDF24B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Cat&amp;light 咖啡店" ID="{8BE7C2F0-CF95-4D3A-AF4A-339CA6B1CA6B}" ShortID="945975315">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4165E236-1EE0-40A0-A5C0-090018DDF24B}"/>
+												</Reference>
+												<Reference Name="TransitionRoot">
+													<Custom>
+														<MusicTransition Name="Root" ID="{DDC93CE0-8EE6-4850-A0BD-8F014AEAE7A7}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Cat&amp;light 咖啡店" ID="{8B8278AC-5EBE-4533-A7AE-F13F4D0BE699}">
+													<Language>SFX</Language>
+													<AudioFile>Cat&amp;light 咖啡店.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="964563469"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3156F791-5B59-4414-AF65-2B6C4B4DBCAF}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Cat&amp;light 咖啡店" ID="{DC8B13C5-468E-4290-9466-7AA331F03DA4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="38333.3333333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Cat&amp;light 咖啡店" ID="{8B8278AC-5EBE-4533-A7AE-F13F4D0BE699}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{BBD6A349-2D4D-45FE-A1F4-903B11E51A4D}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>38.33333</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{AA16834D-B274-4ABB-AD06-E9B17E13CE72}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>38.33333</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{084C74EA-00E1-4D1A-AC16-12335712EE96}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>38.33333</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{C9CE736B-4A47-483F-A183-9DB0432C8B13}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{0CC898E4-FA69-461B-BA20-13D4C09E3E96}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="36988.2244799226"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="MainMenu" ID="{37C81287-1446-417A-BC50-F3A0CE931F32}" ShortID="594031634">
 							<PropertyList>
@@ -315,7 +532,7 @@
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
-							<StateGroupInfo>
+							<StateGroupInfo MusicSyncType="3">
 								<StateGroupRef Name="Music_States" ID="{DEE9665D-3391-44CF-B150-AB18E65F4BA5}"/>
 							</StateGroupInfo>
 						</StateGroupList>
@@ -373,6 +590,24 @@
 											<ObjectList Name="EntryPath">
 												<Reference>
 													<ObjectRef Name="MainMenu" ID="{75743853-A088-43DD-BADD-C66D21B51782}" WorkUnitID="{20391E30-93DB-4A69-AEE7-407C25589169}"/>
+												</Reference>
+											</ObjectList>
+										</ObjectLists>
+									</MultiSwitchEntry>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MultiSwitchEntry Name="" ID="{F9534D04-D0AF-4A70-9FF1-14B54DA3DB26}">
+										<ReferenceList>
+											<Reference Name="AudioNode">
+												<ObjectRef Name="L2_1" ID="{06BF1175-D116-4E11-9E2F-14E9CC88F6A5}" WorkUnitID="{293419B4-22A6-414A-B416-442498B5FC49}"/>
+											</Reference>
+										</ReferenceList>
+										<ObjectLists>
+											<ObjectList Name="EntryPath">
+												<Reference>
+													<ObjectRef Name="L2_1" ID="{AD8944CF-6DA1-4267-B92C-70F07A1DC365}" WorkUnitID="{20391E30-93DB-4A69-AEE7-407C25589169}"/>
 												</Reference>
 											</ObjectList>
 										</ObjectLists>
