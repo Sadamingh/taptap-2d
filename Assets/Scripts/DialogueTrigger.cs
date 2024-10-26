@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class DialogueTrigger : MonoBehaviour
 {
@@ -17,20 +18,29 @@ public class DialogueTrigger : MonoBehaviour
             Debug.Log("Cat comes");
             dialogueControl.isDiaTriggered = true;
 
-            if (catMove != null)
-            {
-                catMove.enabled = false;
-            }
+            StartCoroutine(DisableAfterDelay(0.5f)); // Start coroutine with 0.5s delay
+        }
+    }
 
-            if (laserObject != null)
+    private IEnumerator DisableAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay); // Wait for the specified delay
+
+        if (catMove != null)
+        {
+            catMove.enabled = false;
+        }
+
+        if (laserObject != null)
+        {
+            laserPointer = laserObject.GetComponent<LaserPointer>();
+            laserObject.SetActive(false); // Hide the laser object initially
+            if (laserPointer != null)
             {
-                laserPointer = laserObject.GetComponent<LaserPointer>();
-                laserObject.SetActive(false); // Hide the laser object initially
-                if (laserPointer != null)
-                {
-                    laserPointer.enabled = false;
-                }
+                laserPointer.enabled = false;
             }
         }
+
+        Debug.Log("catMove and laser disabled after delay");
     }
 }
