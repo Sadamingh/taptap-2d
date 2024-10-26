@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/L1-3 Livingroom.unity
     guid: cdf4c2d17ef42423a93361cadb67a5e9
   - enabled: 1
+    path: Assets/Scenes/L2-1 Coffee.unity
+    guid: 9c1cb30c1891945b0bd1969e977055b6
+  - enabled: 1
     path: Assets/Scenes/L2-2 Subway.unity
     guid: 4dab30f77410a44ee8db7205ff14b88a
   - enabled: 1

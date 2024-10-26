@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b294cb7c9da4b18b7d3e4d6e5cda5e, type: 3}
+  m_Name: L2-1
+  m_EditorClassIdentifier: 
+  dialogueEntries:
+  - speaker: Cat
+    dialogueLine: Need this?
+  - speaker: NPC
+    dialogueLine: Are you giving the bean to me?
+  - speaker: Cat
+    dialogueLine: Yes, but listen.
+  - speaker: NPC
+    dialogueLine: How can I help you?
+  - speaker: Cat
+    dialogueLine: Did you see Hikari?
+  - speaker: NPC
+    dialogueLine: I saw that person on the subway.
