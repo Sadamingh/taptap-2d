@@ -13,18 +13,10 @@ public class TargetCollision : MonoBehaviour
             // Start the dialogue when the Cat enters the trigger zone
             dialogueControl.DisplayNextDialogue();
 
-            // Make the cursor visible (as per your requirement)
+            // Make the cursor visible
             Cursor.visible = true;
-        }
-    }
 
-    void OnTriggerExit2D(Collider2D collision)
-    {
-        // Check if the object we collided with has the tag "Cat"
-        if (collision.gameObject.CompareTag("Cat"))
-        {
             dialogueControl.currentDialogueIndex = 0;
-            dialogueControl.EndDialogue();
         }
     }
 }

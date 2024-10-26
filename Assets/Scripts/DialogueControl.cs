@@ -5,7 +5,7 @@ using UnityEngine;
 public class DialogueControl : MonoBehaviour
 {
     public DialogueData dialogueData; // Assign the asset here in the Inspector
-
+    
     // Reference to TMP and bubbles for Cat and NPC
     public GameObject catBubble;
     public TMP_Text catTMP;
@@ -16,6 +16,16 @@ public class DialogueControl : MonoBehaviour
     public GameObject nextLevelObject; // The object to be shown after dialogue ends
 
     public int currentDialogueIndex = 0;
+
+    // New references for CatMove and LaserPointer scripts and Laser GameObject
+    public CatMove catMove;
+    public GameObject laserObject;
+    private LaserPointer laserPointer;
+
+    public bool isDiaTriggered = false; // Controls dialogue activation
+
+    private bool canClick = true; // Prevents multiple clicks
+    private float clickCooldown = 0.3f;
 
     private void Start()
     {
@@ -34,11 +44,26 @@ public class DialogueControl : MonoBehaviour
 
     private void Update()
     {
-        // Check if the player presses Space or Enter to display the next dialogue
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+        if (isDiaTriggered && currentDialogueIndex == 0)
         {
-            DisplayNextDialogue();
+            currentDialogueIndex++;
+            return;
         }
+
+        // Check for tap/click input to continue dialogue only if isDiaTriggered is true
+        if (isDiaTriggered && canClick && Input.GetMouseButtonDown(0)) // Left mouse button or tap on mobile
+        {
+            Debug.Log("Hit");
+            DisplayNextDialogue();
+            StartCoroutine(ClickCooldown());
+        }
+    }
+
+    private IEnumerator ClickCooldown()
+    {
+        canClick = false; // Prevent further clicks until cooldown is over
+        yield return new WaitForSeconds(clickCooldown);
+        canClick = true; // Allow clicks again after cooldown
     }
 
     public void DisplayNextDialogue()
@@ -49,6 +74,8 @@ public class DialogueControl : MonoBehaviour
             ShowNextLevel();
             return;
         }
+
+        Debug.Log("Current Dialogue Index: " + currentDialogueIndex);
 
         var currentEntry = dialogueData.dialogueEntries[currentDialogueIndex];
 
