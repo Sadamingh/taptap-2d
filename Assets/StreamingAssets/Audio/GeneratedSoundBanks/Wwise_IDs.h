@@ -13,12 +13,15 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIENCE = 85412153U;
         static const AkUniqueID CATDASH = 2538023459U;
         static const AkUniqueID CATJUMP = 244401571U;
         static const AkUniqueID CATMEOW = 2633149251U;
         static const AkUniqueID CATRUNFOOTSTEPS = 2940730703U;
         static const AkUniqueID CATWALKFOOTSTEPS = 1144915457U;
         static const AkUniqueID GAMEPLAYMUSIC = 2275179450U;
+        static const AkUniqueID SUBWAYFEETPRESTOMP = 3013963956U;
+        static const AkUniqueID SUBWAYFEETSTOMP = 1754713065U;
         static const AkUniqueID SWITCH = 3202316517U;
         static const AkUniqueID UI_ENTERNEXTLEVEL = 1095517131U;
         static const AkUniqueID UI_ITEMCOLLECTION = 3888557651U;
@@ -26,9 +29,9 @@ namespace AK
 
     namespace STATES
     {
-        namespace MUSIC_STATES
+        namespace LEVELS
         {
-            static const AkUniqueID GROUP = 1690668539U;
+            static const AkUniqueID GROUP = 2678230316U;
 
             namespace STATE
             {
@@ -42,7 +45,7 @@ namespace AK
                 static const AkUniqueID MAINMENU = 3604647259U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
-        } // namespace MUSIC_STATES
+        } // namespace LEVELS
 
     } // namespace STATES
 

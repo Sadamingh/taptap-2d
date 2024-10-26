@@ -112,6 +112,46 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Ambience" ID="{53A38A5F-D878-4E95-A18C-BE50E0444B8C}">
+							<ChildrenList>
+								<Action Name="" ID="{ACA308AD-5F67-40BC-9AA9-3F7DE7C4B306}" ShortID="102057437">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience" ID="{7A7B66AF-0A03-4C15-B401-E882F86E481D}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SubwayFeetStomp" ID="{7646F623-6223-47B8-B12E-F22295983B05}">
+							<ChildrenList>
+								<Action Name="" ID="{4657D7AE-08F9-4C3B-B2C5-CAC7D0C57F6A}" ShortID="448377968">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SubwayFeetStomp" ID="{0F5A9C86-011F-40AE-9CFD-778972928C30}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SubwayFeetPreStomp" ID="{7769A45B-63D2-4B41-8F2F-8CBF05A26A28}">
+							<ChildrenList>
+								<Action Name="" ID="{BE54FC39-7A3E-496C-81EB-5647D45F05B1}" ShortID="766109840">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SubwayFeetPreStomp" ID="{8432F844-C6A3-48D6-BDB2-028C5DA576CD}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

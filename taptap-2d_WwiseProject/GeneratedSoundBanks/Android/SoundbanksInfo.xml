@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{441033CF-9FAA-345C-0FC5-63AB9D38A0C8}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FAB60240-39BB-FB55-D91B-6CCC10A99284}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -25,7 +25,7 @@
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<StateGroups>
-				<StateGroup Id="1690668539" Name="Music_States">
+				<StateGroup Id="2678230316" Name="Levels">
 					<States>
 						<State Id="748895195" Name="None"/>
 						<State Id="952400680" Name="L2_2"/>
@@ -40,7 +40,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7E088292-7429-688A-5E77-EB056BC4805A}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B34029E1-C01C-A7D0-10A6-967B86D21554}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -48,9 +48,21 @@
 					<ShortName>sfx_character_footsteps_8.wav</ShortName>
 					<CachePath>SFX/sfx_character_footsteps_8_818F3B66.wem</CachePath>
 				</File>
+				<File Id="17564157" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_gameplay_Level2_2_loop_01.wav</ShortName>
+					<CachePath>SFX/amb_gameplay_Level2_2_loop_01_818F3B66.wem</CachePath>
+				</File>
 				<File Id="39076869" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_next_level.wav</ShortName>
-					<CachePath>SFX/sfx_next_level_818F3B66.wem</CachePath>
+					<CachePath>SFX/sfx_next_level_CDEC9373.wem</CachePath>
+				</File>
+				<File Id="112889431" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_feet_stomp_01.wav</ShortName>
+					<CachePath>SFX/sfx_feet_stomp_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="120379656" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_feet_stomp_03.wav</ShortName>
+					<CachePath>SFX/sfx_feet_stomp_03_818F3B66.wem</CachePath>
 				</File>
 				<File Id="123735165" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>482455-cat_long_meow_18.wav</ShortName>
@@ -64,9 +76,17 @@
 					<ShortName>sfx_character_run_6.wav</ShortName>
 					<CachePath>SFX/sfx_character_run_6_818F3B66.wem</CachePath>
 				</File>
+				<File Id="235754489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_feet_stomp_02.wav</ShortName>
+					<CachePath>SFX/sfx_feet_stomp_02_818F3B66.wem</CachePath>
+				</File>
 				<File Id="249019016" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_character_footsteps_9.wav</ShortName>
 					<CachePath>SFX/sfx_character_footsteps_9_818F3B66.wem</CachePath>
+				</File>
+				<File Id="304106758" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_feet_pre_stomp_01.wav</ShortName>
+					<CachePath>SFX/sfx_feet_pre_stomp_01_818F3B66.wem</CachePath>
 				</File>
 				<File Id="326174835" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_character_footsteps_2.wav</ShortName>
@@ -79,6 +99,10 @@
 				<File Id="380031771" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_character_dash.wav</ShortName>
 					<CachePath>SFX/sfx_character_dash_818F3B66.wem</CachePath>
+				</File>
+				<File Id="431306800" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>amb_gameplay_Level1_loop_01.wav</ShortName>
+					<CachePath>SFX/amb_gameplay_Level1_loop_01_818F3B66.wem</CachePath>
 				</File>
 				<File Id="477187811" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_character_footsteps_1.wav</ShortName>
@@ -120,9 +144,17 @@
 					<ShortName>482513-cat_short_meow_43.wav</ShortName>
 					<CachePath>SFX/482513-cat_short_meow_43_818F3B66.wem</CachePath>
 				</File>
+				<File Id="724466846" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cat&amp;light 地铁.wav</ShortName>
+					<CachePath>SFX/Cat&amp;light 地铁_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="747665144" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_character_run_2.wav</ShortName>
 					<CachePath>SFX/sfx_character_run_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="752894067" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cat&amp;light 咖啡店(2).wav</ShortName>
+					<CachePath>SFX/Cat&amp;light 咖啡店(2)_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="793213478" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_character_footsteps_7.wav</ShortName>
@@ -139,6 +171,10 @@
 				<File Id="880751948" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>482452-cat_long_meow_15.wav</ShortName>
 					<CachePath>SFX/482452-cat_long_meow_15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="924402831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_feet_stomp_04.wav</ShortName>
+					<CachePath>SFX/sfx_feet_stomp_04_818F3B66.wem</CachePath>
 				</File>
 				<File Id="964563469" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Cat&amp;light 咖啡店.wav</ShortName>
@@ -174,6 +210,34 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="85412153" Name="Ambience" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2678230316" Id="952400680"/>
+							<MediaRefs>
+								<MediaRef Id="17564157"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2678230316" Id="1702304824"/>
+							<MediaRefs>
+								<MediaRef Id="431306800"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2678230316" Id="952400680"/>
+							<MediaRefs>
+								<MediaRef Id="17564157"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2678230316" Id="1702304824"/>
+							<MediaRefs>
+								<MediaRef Id="431306800"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="2538023459" Name="CatDash" DurationType="OneShot" DurationMin="0.45879167" DurationMax="0.45879167">
 					<MediaRefs>
 						<MediaRef Id="380031771"/>
@@ -224,37 +288,64 @@
 				<Event Id="2275179450" Name="GamePlayMusic" DurationType="Infinite">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="1690668539" Id="3604647259"/>
+							<SwitchValue GroupType="State" GroupId="2678230316" Id="3604647259"/>
 							<MediaRefs>
 								<MediaRef Id="1008484862"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="1690668539" Id="952400683"/>
+							<SwitchValue GroupType="State" GroupId="2678230316" Id="952400683"/>
 							<MediaRefs>
+								<MediaRef Id="752894067"/>
 								<MediaRef Id="964563469"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="1690668539" Id="3604647259"/>
+							<SwitchValue GroupType="State" GroupId="2678230316" Id="952400680"/>
+							<MediaRefs>
+								<MediaRef Id="724466846"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2678230316" Id="3604647259"/>
 							<MediaRefs>
 								<MediaRef Id="1008484862"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="1690668539" Id="952400683"/>
+							<SwitchValue GroupType="State" GroupId="2678230316" Id="952400683"/>
 							<MediaRefs>
+								<MediaRef Id="752894067"/>
 								<MediaRef Id="964563469"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2678230316" Id="952400680"/>
+							<MediaRefs>
+								<MediaRef Id="724466846"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+				</Event>
+				<Event Id="3013963956" Name="SubwayFeetPreStomp" DurationType="OneShot" DurationMin="0.9681875" DurationMax="0.9681875">
+					<MediaRefs>
+						<MediaRef Id="304106758"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1754713065" Name="SubwayFeetStomp" DurationType="OneShot" DurationMin="1.1579791" DurationMax="1.333625">
+					<MediaRefs>
+						<MediaRef Id="112889431"/>
+						<MediaRef Id="120379656"/>
+						<MediaRef Id="235754489"/>
+						<MediaRef Id="924402831"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3202316517" Name="Switch" DurationType="OneShot" DurationMin="0.25025" DurationMax="0.25025">
 					<MediaRefs>
 						<MediaRef Id="687593415"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1095517131" Name="UI_EnterNextLevel" DurationType="OneShot" DurationMin="1.5849167" DurationMax="1.5849167">
+				<Event Id="1095517131" Name="UI_EnterNextLevel" DurationType="OneShot" DurationMin="0.7548745" DurationMax="0.7548745">
 					<MediaRefs>
 						<MediaRef Id="39076869"/>
 					</MediaRefs>
@@ -272,7 +363,7 @@
 				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<StateGroups>
-				<StateGroup Id="1690668539" Name="Music_States">
+				<StateGroup Id="2678230316" Name="Levels">
 					<States>
 						<State Id="748895195" Name="None"/>
 						<State Id="952400680" Name="L2_2"/>
@@ -288,5 +379,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0006B062-1CC4-4422-2A5C-181C7CF29ECF}</FileHash>
+	<FileHash>{EE7F0C66-95A9-3B52-C1D0-C04623596E17}</FileHash>
 </SoundBanksInfo>

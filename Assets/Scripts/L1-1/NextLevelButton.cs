@@ -3,8 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class NextLevelButton : MonoBehaviour
 {
+    public AK.Wwise.Event wwiseEventName;  // Wwise Event Name
     private void OnMouseDown()
     {
+        //play sfx entering next level
+        wwiseEventName.Post(gameObject);
+
         // Load the next scene when the object is clicked
         LoadNextScene();
     }

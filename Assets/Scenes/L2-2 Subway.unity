@@ -507,6 +507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 508668795}
   - component: {fileID: 508668794}
+  - component: {fileID: 508668797}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -554,6 +555,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &508668797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508668793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417b9474b9733574a827727d5c0f2415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cf99ac8a4a147dd40a3ae65a98ccfd04, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -7088,6 +7113,7 @@ GameObject:
   - component: {fileID: 1130046167}
   - component: {fileID: 1130046170}
   - component: {fileID: 1130046171}
+  - component: {fileID: 1130046172}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -7235,6 +7261,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueControl: {fileID: 0}
+--- !u!114 &1130046172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130046166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b73c377fae9f60c4490d5f4af438f9be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightTrigger:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bae0d5e0d561dae47ab1b45efeeda698, type: 2}
 --- !u!1 &1240110088
 GameObject:
   m_ObjectHideFlags: 0

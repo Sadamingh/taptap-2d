@@ -1293,8 +1293,9 @@ GameObject:
   - component: {fileID: 618295531}
   - component: {fileID: 618295533}
   - component: {fileID: 618295532}
+  - component: {fileID: 618295534}
   m_Layer: 0
-  m_Name: Cat
+  m_Name: Cat_Audio
   m_TagString: Cat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1455,6 +1456,30 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.4175607}
   m_EdgeRadius: 0
+--- !u!114 &618295534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618295526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892c686358727e543a9f4b487839ab6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSoundPlay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ddfbd485519407b49b26aebc48190d3b, type: 2}
+  runSoundPlay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9123162f025585a43983572de1d16670, type: 2}
+  jumpSoundPlay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b7961917716a50c4abce1f5c295839dd, type: 2}
 --- !u!1 &634456251
 GameObject:
   m_ObjectHideFlags: 0
@@ -2113,8 +2138,9 @@ GameObject:
   - component: {fileID: 1104024482}
   - component: {fileID: 1104024485}
   - component: {fileID: 1104024486}
+  - component: {fileID: 1104024487}
   m_Layer: 0
-  m_Name: NextLevel
+  m_Name: NextLevel_Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2258,6 +2284,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb17e448cf3d6412e88b1731abdf2a6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wwiseEventName:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3ad6251ca6ca064428b0459b529d0b89, type: 2}
+--- !u!114 &1104024487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104024481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604e91af829b319448cce25751a27925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1112041971
 GameObject:
   m_ObjectHideFlags: 0
@@ -2433,8 +2485,10 @@ GameObject:
   - component: {fileID: 1130046167}
   - component: {fileID: 1130046170}
   - component: {fileID: 1130046171}
+  - component: {fileID: 1130046173}
+  - component: {fileID: 1130046172}
   m_Layer: 0
-  m_Name: Target
+  m_Name: Target_Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2579,6 +2633,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueControl: {fileID: 73717283}
+--- !u!114 &1130046172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130046166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070b8666352b92a42906b621c891dd77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightTrigger:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bae0d5e0d561dae47ab1b45efeeda698, type: 2}
+--- !u!114 &1130046173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130046166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604e91af829b319448cce25751a27925, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1134600471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3355,6 +3447,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1767375771}
   - component: {fileID: 1767375770}
+  - component: {fileID: 1767375772}
+  - component: {fileID: 1767375773}
+  - component: {fileID: 1767375774}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -3402,6 +3497,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1767375772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767375769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417b9474b9733574a827727d5c0f2415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0e903920cb74ba043b266493367e6508, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
+--- !u!114 &1767375773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767375769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c35ba126651c343923adc0e3d64238, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3996d8b901cba7a479ef7d0ebdf493d3, type: 2}
+  decodeBank: 0
+  overrideLoadSetting: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
+--- !u!114 &1767375774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767375769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417b9474b9733574a827727d5c0f2415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 901fd1522965d764da8f338cc6aab1de, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1 &1830107982
 GameObject:
   m_ObjectHideFlags: 0
@@ -3700,7 +3868,7 @@ SceneRoots:
   - {fileID: 1707493048}
   - {fileID: 1134600475}
   - {fileID: 1512465488}
-  - {fileID: 1767375771}
   - {fileID: 1658166787}
   - {fileID: 1299373967}
   - {fileID: 1104024484}
+  - {fileID: 1767375771}
