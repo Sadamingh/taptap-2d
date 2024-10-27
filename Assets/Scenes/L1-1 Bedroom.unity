@@ -543,6 +543,7 @@ MonoBehaviour:
   nextLevelObject: {fileID: 1104024481}
   currentDialogueIndex: 0
   catMove: {fileID: 618295531}
+  catMoveNew: {fileID: 0}
   laserObject: {fileID: 1098992099}
   isDiaTriggered: 0
 --- !u!1 &292073163
@@ -2522,7 +2523,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.037029147, y: -0.11175197}
+  m_Offset: {x: 0.0986352, y: -0.33594346}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2533,7 +2534,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.837528, y: 1.3297399}
+  m_Size: {x: 0.9404402, y: 1.2152194}
   m_EdgeRadius: 0
 --- !u!212 &1130046168
 SpriteRenderer:
@@ -2643,6 +2644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueControl: {fileID: 73717283}
   catMove: {fileID: 618295531}
+  catMoveNew: {fileID: 0}
   laserObject: {fileID: 1098992099}
 --- !u!1 &1134600471
 GameObject:

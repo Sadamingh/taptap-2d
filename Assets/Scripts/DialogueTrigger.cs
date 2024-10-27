@@ -5,6 +5,7 @@ public class DialogueTrigger : MonoBehaviour
 {
     public DialogueControl dialogueControl; // Reference to the DialogueControl script
     public CatMove catMove;
+    public CatMoveNew catMoveNew;
     public GameObject laserObject;
     private LaserPointer laserPointer;
 
@@ -29,6 +30,10 @@ public class DialogueTrigger : MonoBehaviour
         if (catMove != null)
         {
             catMove.enabled = false;
+        } 
+        else if (catMoveNew != null)
+        {
+            catMoveNew.enabled = false;
         }
 
         if (laserObject != null)
