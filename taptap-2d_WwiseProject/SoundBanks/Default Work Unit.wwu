@@ -3,12 +3,13 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{DDFC675E-21FE-490E-AA14-5874F09C162B}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{BCF82A7B-4094-4EC0-B73C-58343E39CD49}">
+				<SoundBank Name="Main" ID="{B364A642-96BE-4C9E-874A-239C216B26F4}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{293419B4-22A6-414A-B416-442498B5FC49}" WorkUnitID="{293419B4-22A6-414A-B416-442498B5FC49}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interactive Music Hierarchy" ID="{49FED366-B530-42A8-993B-924873AAB707}" WorkUnitID="{49FED366-B530-42A8-993B-924873AAB707}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Master-Mixer Hierarchy" ID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" WorkUnitID="{2388DAEA-9775-46C6-A2ED-C5222A397756}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{22638D37-A299-4B29-B051-6C93C42F3F43}" WorkUnitID="{22638D37-A299-4B29-B051-6C93C42F3F43}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Actor-Mixer Hierarchy" ID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" WorkUnitID="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" WorkUnitID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

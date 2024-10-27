@@ -3,7 +3,7 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{20391E30-93DB-4A69-AEE7-407C25589169}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Music_States" ID="{DEE9665D-3391-44CF-B150-AB18E65F4BA5}">
+				<StateGroup Name="Levels" ID="{DEE9665D-3391-44CF-B150-AB18E65F4BA5}">
 					<ChildrenList>
 						<State Name="None" ID="{1785CF51-F51D-4FC1-93A9-465070E18BEF}"/>
 						<State Name="MainMenu" ID="{75743853-A088-43DD-BADD-C66D21B51782}"/>
