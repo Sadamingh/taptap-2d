@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/L3-2 Office.unity
     guid: 1a24b2171c2c24ce1b59ed8469713c47
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 94ad64c7c05954825a50dd6e3f41fafb
   m_configObjects: {}

@@ -19,6 +19,7 @@ public class DialogueControl : MonoBehaviour
 
     // New references for CatMove and LaserPointer scripts and Laser GameObject
     public CatMove catMove;
+    public CatMoveNew catMoveNew;
     public GameObject laserObject;
     private LaserPointer laserPointer;
 
