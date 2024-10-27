@@ -117,7 +117,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 5e67fcddfe210e49aa145874f09c162b
     GuidInternal: 
-    m_lastTime: -8584717691630467239
+    m_lastTime: -8584716151253777035
     List:
     - name: Main
       guid: 7b2af8bc9440c04eb73c58343e39cd49
@@ -145,8 +145,162 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 378d632299a2294bb0516c93c42f3f43
     GuidInternal: 
-    m_lastTime: -8584717691633505791
+    m_lastTime: -8584716132688718462
     List:
+    - name: Ambience
+      guid: 5f8aa35378d8954ea18cbe50e0444b8c
+      id: 85412153
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: 78ada823c59a2d4d968d7e30c3adba12
+      - ElementName: Ambience
+        ObjectType: 3
+        guid: 5f8aa35378d8954ea18cbe50e0444b8c
+      Path: Events/Default Work Unit/Gameplay/Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CatDash
+      guid: c15cb1c159a5a54db7df0c7bc64f614a
+      id: 2538023459
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: Character
+        ObjectType: 4
+        guid: db00693360af284d8c3a10ba5be359c9
+      - ElementName: CatDash
+        ObjectType: 3
+        guid: c15cb1c159a5a54db7df0c7bc64f614a
+      Path: Events/Default Work Unit/Character/CatDash
+      maxAttenuation: 0
+      maxDuration: 0.45879167
+      minDuration: 0.45879167
+    - name: CatJump
+      guid: 249a76511e643a4bb6deca1b4535a0c1
+      id: 244401571
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: Character
+        ObjectType: 4
+        guid: db00693360af284d8c3a10ba5be359c9
+      - ElementName: CatJump
+        ObjectType: 3
+        guid: 249a76511e643a4bb6deca1b4535a0c1
+      Path: Events/Default Work Unit/Character/CatJump
+      maxAttenuation: 0
+      maxDuration: 0.5422083
+      minDuration: 0.5422083
+    - name: CatMeow
+      guid: 0b49c6a1f3695240957a65102fe73558
+      id: 2633149251
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: Character
+        ObjectType: 4
+        guid: db00693360af284d8c3a10ba5be359c9
+      - ElementName: CatMeow
+        ObjectType: 3
+        guid: 0b49c6a1f3695240957a65102fe73558
+      Path: Events/Default Work Unit/Character/CatMeow
+      maxAttenuation: 0
+      maxDuration: 2.75
+      minDuration: 1.25
+    - name: CatRunFootsteps
+      guid: d6d52cb7aa71b34db50121c3bfc742ab
+      id: 2940730703
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: Character
+        ObjectType: 4
+        guid: db00693360af284d8c3a10ba5be359c9
+      - ElementName: CatRunFootsteps
+        ObjectType: 3
+        guid: d6d52cb7aa71b34db50121c3bfc742ab
+      Path: Events/Default Work Unit/Character/CatRunFootsteps
+      maxAttenuation: 0
+      maxDuration: 0.125125
+      minDuration: 0.125125
+    - name: CatWalkFootsteps
+      guid: db78d17e77552a49bf39062ebb2cc287
+      id: 1144915457
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: Character
+        ObjectType: 4
+        guid: db00693360af284d8c3a10ba5be359c9
+      - ElementName: CatWalkFootsteps
+        ObjectType: 3
+        guid: db78d17e77552a49bf39062ebb2cc287
+      Path: Events/Default Work Unit/Character/CatWalkFootsteps
+      maxAttenuation: 0
+      maxDuration: 0.125125
+      minDuration: 0.125125
+    - name: Character
+      guid: db00693360af284d8c3a10ba5be359c9
+      id: 436743010
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: Character
+        ObjectType: 4
+        guid: db00693360af284d8c3a10ba5be359c9
+      Path: Events/Default Work Unit/Character
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Gameplay
+      guid: 78ada823c59a2d4d968d7e30c3adba12
+      id: 89505537
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: 78ada823c59a2d4d968d7e30c3adba12
+      Path: Events/Default Work Unit/Gameplay
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: GamePlayMusic
       guid: 49893bfa6eefc44da3ffaf1d70874776
       id: 2275179450
@@ -164,6 +318,123 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: SubwayFeetPreStomp
+      guid: 5ba46977d263414b8f2f8cbf05a26a28
+      id: 3013963956
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: 78ada823c59a2d4d968d7e30c3adba12
+      - ElementName: SubwayFeetPreStomp
+        ObjectType: 3
+        guid: 5ba46977d263414b8f2f8cbf05a26a28
+      Path: Events/Default Work Unit/Gameplay/SubwayFeetPreStomp
+      maxAttenuation: 0
+      maxDuration: 0.9681875
+      minDuration: 0.9681875
+    - name: SubwayFeetStomp
+      guid: 23f646762362b847b12ef22295983b05
+      id: 1754713065
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: 78ada823c59a2d4d968d7e30c3adba12
+      - ElementName: SubwayFeetStomp
+        ObjectType: 3
+        guid: 23f646762362b847b12ef22295983b05
+      Path: Events/Default Work Unit/Gameplay/SubwayFeetStomp
+      maxAttenuation: 0
+      maxDuration: 1.333625
+      minDuration: 1.1579791
+    - name: Switch
+      guid: 8bd58ebc88e93a4ea53c98519da415e1
+      id: 3202316517
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: Gameplay
+        ObjectType: 4
+        guid: 78ada823c59a2d4d968d7e30c3adba12
+      - ElementName: Switch
+        ObjectType: 3
+        guid: 8bd58ebc88e93a4ea53c98519da415e1
+      Path: Events/Default Work Unit/Gameplay/Switch
+      maxAttenuation: 0
+      maxDuration: 0.25025
+      minDuration: 0.25025
+    - name: UI
+      guid: f237c55c730ff24b95abb600ce06c6a6
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: UI
+        ObjectType: 4
+        guid: f237c55c730ff24b95abb600ce06c6a6
+      Path: Events/Default Work Unit/UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UI_EnterNextLevel
+      guid: d04f1f0f64215b4eb138992c2dfcbb0a
+      id: 1095517131
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: UI
+        ObjectType: 4
+        guid: f237c55c730ff24b95abb600ce06c6a6
+      - ElementName: UI_EnterNextLevel
+        ObjectType: 3
+        guid: d04f1f0f64215b4eb138992c2dfcbb0a
+      Path: Events/Default Work Unit/UI/UI_EnterNextLevel
+      maxAttenuation: 0
+      maxDuration: 0.7548745
+      minDuration: 0.7548745
+    - name: UI_ItemCollection
+      guid: 49800bdbaacf1542baed7f69cf6726c8
+      id: 3888557651
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 378d632299a2294bb0516c93c42f3f43
+      - ElementName: UI
+        ObjectType: 4
+        guid: f237c55c730ff24b95abb600ce06c6a6
+      - ElementName: UI_ItemCollection
+        ObjectType: 3
+        guid: 49800bdbaacf1542baed7f69cf6726c8
+      Path: Events/Default Work Unit/UI/UI_ItemCollection
+      maxAttenuation: 0
+      maxDuration: 1.5849167
+      minDuration: 1.5849167
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -190,7 +461,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 301e3920db93694aaee7407c25589169
     GuidInternal: 
-    m_lastTime: -8584717691630464715
+    m_lastTime: -8584716151253772988
     List:
     - name: Music_States
       guid: 5d66e9de9133cf44b150ab18e65f4ba5
@@ -366,7 +637,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: a1549a1db94a2347bc97529033edd635
     GuidInternal: 
-    m_lastTime: -8584717733384775808
+    m_lastTime: -8584716892264775808
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
@@ -382,7 +653,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8584720292034775808
     List: []
-  ExpandedFileSystemItemIds: 0200000006000000080000000a0000001600000017000000
+  ExpandedFileSystemItemIds: 020000000300000006000000080000000a0000001500000016000000170000002200000023000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
