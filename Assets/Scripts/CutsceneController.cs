@@ -11,6 +11,8 @@ public class CutsceneController : MonoBehaviour
 
     private int currentCG = 0;
 
+    public bool isCoffee = false;
+
     private void Start()
     {
         StartCoroutine(PlayCutscene());
@@ -35,6 +37,13 @@ public class CutsceneController : MonoBehaviour
             cg.gameObject.SetActive(false);
         }
         
+        if (isCoffee)
+        {
+            // Stop all Wwise events before switching the scene
+            AkSoundEngine.StopAll();
+        }
+
+        // Load the next scene
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);
     }

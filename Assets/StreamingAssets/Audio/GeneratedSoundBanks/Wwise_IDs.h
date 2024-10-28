@@ -18,8 +18,10 @@ namespace AK
         static const AkUniqueID CATJUMP = 244401571U;
         static const AkUniqueID CATMEOW = 2633149251U;
         static const AkUniqueID CATRUNFOOTSTEPS = 2940730703U;
+        static const AkUniqueID CATSQUISH = 3097264336U;
         static const AkUniqueID CATWALKFOOTSTEPS = 1144915457U;
         static const AkUniqueID GAMEPLAYMUSIC = 2275179450U;
+        static const AkUniqueID PIPESWITCH = 1972173905U;
         static const AkUniqueID SUBWAYFEETPRESTOMP = 3013963956U;
         static const AkUniqueID SUBWAYFEETSTOMP = 1754713065U;
         static const AkUniqueID SWITCH = 3202316517U;

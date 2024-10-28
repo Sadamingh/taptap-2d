@@ -656,6 +656,7 @@ MonoBehaviour:
   - {fileID: 42740315}
   fadeDuration: 1
   displayDuration: 2
+  isCoffee: 1
 --- !u!4 &1384551065
 Transform:
   m_ObjectHideFlags: 0

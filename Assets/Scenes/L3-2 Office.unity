@@ -8165,6 +8165,7 @@ MonoBehaviour:
   catMove: {fileID: 0}
   catMoveNew: {fileID: 618295534}
   laserObject: {fileID: 1098992099}
+  needFlip: 1
 --- !u!1 &1135003257
 GameObject:
   m_ObjectHideFlags: 0

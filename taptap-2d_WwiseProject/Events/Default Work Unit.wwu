@@ -82,17 +82,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="CatMorph" ID="{F8A47DA6-0897-45C4-9CF7-DA0CD5FA6D1C}">
-							<ChildrenList>
-								<Action Name="" ID="{3536139A-8A78-4252-9C07-6AA649450656}" ShortID="521979245">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="CatMorph" ID="{5C9173E2-79FF-4D2F-AA1C-86B6FB6DD5E2}" WorkUnitID="{C82281CE-94BB-4A3D-B598-CCE5817BB1AA}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{5CC537F2-0F73-4BF2-95AB-B600CE06C6A6}" ShortID="760140182">

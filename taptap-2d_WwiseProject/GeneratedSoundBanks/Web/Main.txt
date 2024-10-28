@@ -4,11 +4,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	1095517131	UI_EnterNextLevel			\Default Work Unit\UI\UI_EnterNextLevel	
 	1144915457	CatWalkFootsteps			\Default Work Unit\Character\CatWalkFootsteps	
 	1754713065	SubwayFeetStomp			\Default Work Unit\Gameplay\SubwayFeetStomp	
+	1972173905	PipeSwitch			\Default Work Unit\Gameplay\PipeSwitch	
 	2275179450	GamePlayMusic			\Default Work Unit\GamePlayMusic	
 	2538023459	CatDash			\Default Work Unit\Character\CatDash	
 	2633149251	CatMeow			\Default Work Unit\Character\CatMeow	
 	2940730703	CatRunFootsteps			\Default Work Unit\Character\CatRunFootsteps	
 	3013963956	SubwayFeetPreStomp			\Default Work Unit\Gameplay\SubwayFeetPreStomp	
+	3097264336	CatSquish			\Default Work Unit\Character\CatSquish	
 	3202316517	Switch			\Default Work Unit\Gameplay\Switch	
 	3888557651	UI_ItemCollection			\Default Work Unit\UI\UI_ItemCollection	
 
@@ -34,9 +36,9 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6936146	sfx_character_footsteps_8	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_footsteps_8_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatWalkFootsteps\sfx_character_footsteps_8		24120
-	17564157	Level2_2Ambience	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\amb_gameplay_Level2_2_loop_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Level2_2Ambience		5857112
+	17564157	Level2_2Ambience	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\amb_gameplay_Level2_2_loop_01_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Level2_2Ambience		5857112
 	39076869	UI_EnterNextLevel	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_next_level_CDEC9373.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_EnterNextLevel		145032
-	112889431	sfx_feet_stomp_01	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_feet_stomp_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\GamePlay\SubwayFeetStomp\sfx_feet_stomp_01		224964
+	112889431	sfx_feet_stomp_01	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_feet_stomp_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\GamePlay\PipeSwitch\sfx_feet_stomp_01		224964
 	120379656	sfx_feet_stomp_03	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_feet_stomp_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\GamePlay\SubwayFeetStomp\sfx_feet_stomp_03		256152
 	123735165	482455-cat_long_meow_18	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\482455-cat_long_meow_18_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatMeow\482455-cat_long_meow_18		240096
 	145242462	482473-cat_short_meow_04_question	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\482473-cat_short_meow_04_question_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatMeow\482473-cat_short_meow_04_question		120096
@@ -45,13 +47,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	249019016	sfx_character_footsteps_9	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_footsteps_9_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatWalkFootsteps\sfx_character_footsteps_9		24120
 	304106758	SubwayFeetPreStomp	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_feet_pre_stomp_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\GamePlay\SubwayFeetPreStomp		185988
 	326174835	sfx_character_footsteps_2	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_footsteps_2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatWalkFootsteps\sfx_character_footsteps_2		24120
+	326638932	Level2_3Ambience	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\ATM_ambience_loop_01_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Level2_3Ambience		7835840
 	375365863	sfx_character_footsteps_10	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_footsteps_10_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatWalkFootsteps\sfx_character_footsteps_10		24120
 	380031771	CatDash	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_dash_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatDash		88184
-	431306800	Level1Ambience	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\amb_gameplay_Level1_loop_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Level1Ambience		5239752
+	431306800	Level1Ambience	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\amb_gameplay_Level1_loop_01_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Level1Ambience		5239752
 	477187811	sfx_character_footsteps_1	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_footsteps_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatWalkFootsteps\sfx_character_footsteps_1		24120
 	479623935	sfx_character_footsteps_5	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_footsteps_5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatWalkFootsteps\sfx_character_footsteps_5		24120
 	502335706	sfx_character_run_8	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_run_8_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatRunFootsteps\sfx_character_run_8		24120
 	544335011	482476-cat_short_meow_07_attention_mad	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\482476-cat_short_meow_07_attention_mad_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatMeow\482476-cat_short_meow_07_attention_mad		144096
+	571471332	Level3_2Ambience	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\office_ambience_loop_01_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Level3_2Ambience		3029398
 	618847773	sfx_character_run_5	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_run_5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatRunFootsteps\sfx_character_run_5		24120
 	659352948	sfx_character_run_7	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_run_7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatRunFootsteps\sfx_character_run_7		24120
 	684623642	sfx_character_run_1	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_run_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatRunFootsteps\sfx_character_run_1		24120
@@ -74,4 +78,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1011970278	sfx_character_footsteps_3	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_footsteps_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatWalkFootsteps\sfx_character_footsteps_3		24120
 	1048118778	CatJump	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_jump_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatJump		104200
 	1058980409	sfx_character_run_10	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\sfx_character_run_10_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CatRunFootsteps\sfx_character_run_10		24120
+	1069451738	Level2_1Ambience	Y:\taptap-2d\taptap-2d_WwiseProject\.cache\Web\SFX\cafe_ambience_loop_01_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Level2_1Ambience		2884028
 
