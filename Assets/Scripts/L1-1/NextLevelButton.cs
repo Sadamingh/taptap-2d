@@ -6,6 +6,9 @@ public class NextLevelButton : MonoBehaviour
     private void OnMouseDown()
     {
         // Load the next scene when the object is clicked
+        Debug.Log("trigger next scene");
+
+    
         LoadNextScene();
     }
 

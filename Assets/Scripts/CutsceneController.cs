@@ -36,12 +36,12 @@ public class CutsceneController : MonoBehaviour
             
             cg.gameObject.SetActive(false);
         }
-        
-        if (isCoffee)
-        {
+        // ambience and gameplay music should keep playing until the end of the game
+        //if (isCoffee)
+        //{
             // Stop all Wwise events before switching the scene
-            AkSoundEngine.StopAll();
-        }
+            //AkSoundEngine.StopAll();
+        //}
 
         // Load the next scene
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;

@@ -864,6 +864,7 @@ GameObject:
   - component: {fileID: 508668798}
   - component: {fileID: 508668797}
   - component: {fileID: 508668796}
+  - component: {fileID: 508668800}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -1011,6 +1012,35 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!114 &508668800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508668793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63671dcb3be659948ba8267da1582d80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0dbfa5b8be363d346919360cd823efdf, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -7797,6 +7827,7 @@ MonoBehaviour:
   catMove: {fileID: 618295531}
   catMoveNew: {fileID: 0}
   laserObject: {fileID: 1098992099}
+  needFlip: 0
 --- !u!1 &1240110088
 GameObject:
   m_ObjectHideFlags: 0

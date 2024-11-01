@@ -2646,6 +2646,7 @@ MonoBehaviour:
   catMove: {fileID: 618295531}
   catMoveNew: {fileID: 0}
   laserObject: {fileID: 1098992099}
+  needFlip: 0
 --- !u!1 &1134600471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3422,7 +3423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1767375771}
   - component: {fileID: 1767375770}
-  - component: {fileID: 1767375775}
+  - component: {fileID: 1767375776}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -3470,7 +3471,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1767375775
+--- !u!114 &1767375776
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3479,7 +3480,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1767375769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4c35ba126651c343923adc0e3d64238, type: 3}
+  m_Script: {fileID: 11500000, guid: 417b9474b9733574a827727d5c0f2415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   triggerList: f7e1664c
@@ -3487,14 +3488,13 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 3996d8b901cba7a479ef7d0ebdf493d3, type: 2}
-  decodeBank: 0
-  overrideLoadSetting: 0
-  loadAsynchronous: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
-  bankNameInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cd0bec447d9044b3ea9f96a78911fe22, type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
   valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1 &1830107982
 GameObject:
   m_ObjectHideFlags: 0
