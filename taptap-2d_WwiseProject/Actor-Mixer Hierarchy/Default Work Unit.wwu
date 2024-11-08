@@ -665,7 +665,53 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4165E236-1EE0-40A0-A5C0-090018DDF24B}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="sfx_character_squish" ID="{1CF482C3-CC4B-4B5A-809F-248775F12E62}" ShortID="728753761">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5441FC34-55BD-4268-9E96-C7D3FBC44DD5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4165E236-1EE0-40A0-A5C0-090018DDF24B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_character_squish" ID="{8CA174E0-C99E-4A51-8672-9C7701DA67B0}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_character_squish.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="325349470"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_character_squish" ID="{8CA174E0-C99E-4A51-8672-9C7701DA67B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="CatMorph" ID="{3E00F7CE-58B1-4643-A09F-11F3F82DE94B}" ShortID="1054173948">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5441FC34-55BD-4268-9E96-C7D3FBC44DD5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4165E236-1EE0-40A0-A5C0-090018DDF24B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_character_morph" ID="{54D4360E-E636-4913-B722-F2517D2FAF93}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_character_morph.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="512855564"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_character_morph" ID="{54D4360E-E636-4913-B722-F2517D2FAF93}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="UI" ID="{F70C9521-7114-4CA7-B514-57E8429E8708}" ShortID="317437160">
@@ -875,26 +921,54 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="sfx_feet_stomp_01" ID="{4DAF5BBA-8645-4A87-80D7-26422F72C15D}" ShortID="612438324">
+								<Sound Name="sfx_pipe_switch" ID="{77A9A730-5E40-48F8-A093-6FFAEFFEA6D3}" ShortID="503172352">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{85B97AE7-691D-431D-BFD8-014E88430DCB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="29"/>
+															<Property Name="Min" Type="Real64" Value="-23"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FE39E0CF-4638-4D9D-999B-03AF99823A0E}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-76"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5441FC34-55BD-4268-9E96-C7D3FBC44DD5}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFX" ID="{591B219F-63C2-4DCB-8024-9695E92F3CDE}" WorkUnitID="{4165E236-1EE0-40A0-A5C0-090018DDF24B}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4165E236-1EE0-40A0-A5C0-090018DDF24B}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_feet_stomp_01" ID="{1CC97D49-A736-4217-B719-039BDD631B07}">
+										<AudioFileSource Name="sfx_pipe_switch" ID="{BF522759-8CC3-4977-BA01-7836E912968D}">
 											<Language>SFX</Language>
-											<AudioFile>sfx_feet_stomp_01.wav</AudioFile>
+											<AudioFile>sfx_pipe_switch.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="112889431"/>
+												<MediaID ID="459633620"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="sfx_feet_stomp_01" ID="{1CC97D49-A736-4217-B719-039BDD631B07}" Platform="Linked"/>
+										<ActiveSource Name="sfx_pipe_switch" ID="{BF522759-8CC3-4977-BA01-7836E912968D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
